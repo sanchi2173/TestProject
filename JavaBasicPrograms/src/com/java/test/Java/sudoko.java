@@ -1,4 +1,4 @@
-package com.java.test;
+package com.java.test.Java;
 
 import java.util.HashMap;
 
@@ -57,7 +57,7 @@ public class sudoko {
                 for(int k=0; k<=2; k++){
                     for(int h=0; h<=2; h++){
                         if(grid[i+k][j+h] != '.'){
-                            char ch=grid[i+k][j+k];
+                            char ch=grid[i+k][j+h];
                             if(colDataMap.containsKey(ch)){
                                 isSudoko=false;
                                 break;

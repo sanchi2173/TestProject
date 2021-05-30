@@ -1,4 +1,4 @@
-package com.java.test;
+package com.java.test.Java;
 
 public class ReverseAString {
     public static void main(String[] args){
